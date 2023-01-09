@@ -98,30 +98,26 @@ body {
 }
 
 .product {
-  font-family:var(--ff-base)
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
   color: var(--clr-neutral_Dark_grayish_blue);
   font-size: 0.8rem;
   background-color: var(--clr-neutral_White);
   border-radius: 0.5rem;
-  overflow:hidden;
- max-width: 600px;
+  overflow: hidden;
+  max-width: 600px;
 }
 
-
-
-.product__category{
+.product__category {
   font-family: var(--ff-base);
-  text-transform: uppercase ;
+  text-transform: uppercase;
   letter-spacing: 5px;
   color: var(--clr-neutral_Dark_grayish_blue);
-
-
 }
 .product__content {
   display: grid;
   gap: 1rem;
   padding: 2rem;
-  
 }
 
 .product__title {
@@ -129,38 +125,34 @@ body {
   font-size: 2rem;
   font-family: var(--ff-accent);
   font-weight: var(--fw-bold);
-  color:var(--clr-neutral_Very_dark_blue);
+  color: var(--clr-neutral_Very_dark_blue);
 }
 
-.product__description{
-
+.product__description {
   font-family: var(--ff-base);
   color: var(--clr-neutral_Dark_grayish_blue);
-
 }
 
-.price-container{
+.price-container {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-.current-price{
+.current-price {
   font-size: 2rem;
   color: var(--clr-primary_Darkcyan);
   font-weight: var(--fw-bold);
   font-family: var(--ff-accent);
 }
 
-.original-price{
+.original-price {
   color: var(--clr-neutral_Dark_grayish_blue);
   font-weight: var(--fw-regular);
   font-size: 1rem;
-  
 }
 
-.product__btn{
-
+.product__btn {
   background-color: var(--clr-primary_Darkcyan);
   color: var(--clr-neutral_White);
   border-radius: 0.5rem;
@@ -173,23 +165,20 @@ body {
   align-items: center;
   gap: 1rem;
   border: none;
-
 }
 
-.product__btn:hover{
-  background-color: var(--clr-primary-Darkcyan500)
+.product__btn:hover {
+  background-color: var(--clr-primary-Darkcyan500);
 }
 @media (min-width: 617px) {
-  .product{
+  .product {
     display: flex;
-  
   }
-  .product__btn{
+  .product__btn {
     padding: 0.7rem 0rem;
-    
   }
-  
-  .product__content{
+
+  .product__content {
     max-width: 300px;
   }
 }
