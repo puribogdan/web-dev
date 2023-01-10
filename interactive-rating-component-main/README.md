@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [[Add live site URL here](https://your-live-site-url.com)](https://benevolent-kheer-ada026.netlify.app)
+- Live Site URL: https://benevolent-kheer-ada026.netlify.app
 
 ### Built with
 
