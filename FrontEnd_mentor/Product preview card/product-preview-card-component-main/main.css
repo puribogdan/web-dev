@@ -1,0 +1,184 @@
+/* ### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+ */
+
+:root {
+  --clr-primary_Darkcyan: hsl(158, 36%, 37%);
+  --clr-primary-Darkcyan500: hsl(158, 36%, 20%);
+  --clr-secundary_Cream: hsl(30, 38%, 92%);
+
+  --clr-neutral_Very_dark_blue: hsl(212, 21%, 14%);
+  --clr-neutral_Dark_grayish_blue: hsl(228, 12%, 48%);
+  --clr-neutral_White: hsl(0, 0%, 100%);
+
+  --fw-regular: 500;
+  --fw-bold: 700;
+
+  --ff-accent: 'Fraunces', serif;
+  --ff-base: 'Montserrat', sans-serif;
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+  margin: 0;
+}
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+}
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-secundary_Cream);
+  margin: 1rem;
+}
+
+.product {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  color: var(--clr-neutral_Dark_grayish_blue);
+  font-size: 0.8rem;
+  background-color: var(--clr-neutral_White);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+.product__category {
+  font-family: var(--ff-base);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--clr-neutral_Dark_grayish_blue);
+}
+.product__content {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.product__title {
+  line-height: 2rem;
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-bold);
+  color: var(--clr-neutral_Very_dark_blue);
+}
+
+.product__description {
+  font-family: var(--ff-base);
+  color: var(--clr-neutral_Dark_grayish_blue);
+}
+
+.price-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.current-price {
+  font-size: 2rem;
+  color: var(--clr-primary_Darkcyan);
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-accent);
+}
+
+.original-price {
+  color: var(--clr-neutral_Dark_grayish_blue);
+  font-weight: var(--fw-regular);
+  font-size: 1rem;
+}
+
+.product__btn {
+  background-color: var(--clr-primary_Darkcyan);
+  color: var(--clr-neutral_White);
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+}
+
+.product__btn:hover {
+  background-color: var(--clr-primary-Darkcyan500);
+}
+@media (min-width: 617px) {
+  .product {
+    display: flex;
+  }
+  .product__btn {
+    padding: 0.7rem 0rem;
+  }
+
+  .product__content {
+    max-width: 300px;
+  }
+}

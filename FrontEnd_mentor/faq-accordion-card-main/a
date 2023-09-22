@@ -1,0 +1,60 @@
+[33mcommit 86aae5d7350a4145f8e7ae2add0761650b0fa927[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: cd267b0 0f125ca
+Author: legolas_him94 <legolas_him94@yahoo.com>
+Date:   Fri Sep 22 14:12:52 2023 +0300
+
+    Merge branch 'master' of https://github.com/puribogdan/web-dev
+
+[33mcommit cd267b010340e5d13427f2d2a5b3adb9688ce833[m
+Author: legolas_him94 <legolas_him94@yahoo.com>
+Date:   Fri Sep 22 14:08:06 2023 +0300
+
+    first commit
+
+[33mcommit 0f125ca23dcf6d2c1cb5d5d4c457bcf223fd04ef[m
+Author: puribogdan <50368261+puribogdan@users.noreply.github.com>
+Date:   Tue Jan 10 13:58:36 2023 +0200
+
+    Update README.md
+
+[33mcommit 79db920cf0b92d988ebb989fe7f41a207b74b237[m
+Author: puribogdan <50368261+puribogdan@users.noreply.github.com>
+Date:   Tue Jan 10 13:58:06 2023 +0200
+
+    Update README.md
+
+[33mcommit d9f5e686e15cf3dac737d11c73628cf2dfcf9663[m
+Author: puribogdan <50368261+puribogdan@users.noreply.github.com>
+Date:   Tue Jan 10 13:48:11 2023 +0200
+
+    Delete dev projects/interactive-rating-component-main directory
+
+[33mcommit 0279f226fc7da1d1d80e50ea34977014ff81ab96[m
+Author: puribogdan <50368261+puribogdan@users.noreply.github.com>
+Date:   Tue Jan 10 13:47:42 2023 +0200
+
+    Add files via upload
+
+[33mcommit 386b14d2ccf658a53f8c885a68ccc1f469795adf[m
+Author: legolas_him94 <legolas_him94@yahoo.com>
+Date:   Mon Jan 9 14:09:54 2023 +0200
+
+    preview card comp
+
+[33mcommit 7d35b1217953ef51dccd0069c2877af21923fa1d[m
+Author: legolas_him94 <legolas_him94@yahoo.com>
+Date:   Mon Jan 9 14:07:58 2023 +0200
+
+    preview card component
+
+[33mcommit ad551b346f2c2a4a32683bf6dc75a227cf306aa0[m
+Author: legolas_him94 <legolas_him94@yahoo.com>
+Date:   Sat Jan 7 17:21:01 2023 +0200
+
+    renamed readme
+
+[33mcommit b3ebf56f9e87b7e6832f9009696cbafdd8453228[m
+Author: legolas_him94 <legolas_him94@yahoo.com>
+Date:   Sat Jan 7 17:16:19 2023 +0200
+
+    initial commit
