@@ -1,0 +1,113 @@
+/* - Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%) */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --light_cyan: hsl(193, 38%, 86%);
+  --neon_green: hsl(150, 100%, 66%);
+
+  --grayish_blue: hsl(217, 19%, 38%);
+  --dark_grayish_blue: hsl(217, 19%, 24%);
+  --dark_blue: hsl(218, 23%, 16%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark_blue);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Manrope', sans-serif;
+}
+
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dark_grayish_blue);
+  color: var(--light_cyan);
+  width: 500px;
+  padding: 2rem;
+  border-radius: 30px;
+  position: relative;
+}
+
+.advice__id {
+  color: var(--neon_green);
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  font-size: 12px;
+  display: block;
+  margin-top: 1rem;
+}
+
+.advice__text {
+  font-size: 28px;
+  color: var(--light_cyan);
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.desktop__divider {
+  padding-bottom: 1rem;
+}
+.mobile__divider {
+  display: none;
+}
+
+.btn {
+  background-color: var(--neon_green);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -23px;
+  position: absolute;
+  cursor: pointer;
+}
+.btn:hover {
+  filter: drop-shadow(0 0 0.75rem var(--neon_green));
+  transition: all 0.2s ease-out;
+}
+.dice {
+  width: 1.2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .main__container {
+    width: 350px;
+  }
+  .desktop__divider {
+    display: none;
+  }
+  .mobile__divider {
+    display: block;
+    padding-bottom: 1rem;
+  }
+}

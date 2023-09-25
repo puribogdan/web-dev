@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   rating_button.forEach((rating) => {
     rating.addEventListener('click', () => {
+      if()
       rate.innerHTML = rating.innerHTML;
     });
   });
