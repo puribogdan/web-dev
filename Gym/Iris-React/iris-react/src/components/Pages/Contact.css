@@ -1,0 +1,173 @@
+.info-contact-form-wrapper {
+  display: flex;
+
+  gap: 137px;
+  margin-bottom: 128px;
+}
+
+.contact-wrapper {
+  padding: 128px 64px 256px 64px;
+  background-color: var(--background-second);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-wrapper h2 {
+  color: var(--primary);
+
+  font-size: var(--heading-5-medium-desk-font-size);
+  font-weight: 300;
+
+  text-align: center;
+  margin-top: 64px;
+}
+
+.info-contact-wrapper {
+  display: flex;
+  width: fit-content;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.info-contact {
+  display: flex;
+  width: fit-content;
+  gap: 20px;
+  align-items: center;
+}
+
+.info-contact img {
+  width: 4.25rem;
+}
+
+.info-contact p {
+  color: var(--grey-light);
+  font-family: var(--paragraph-desktop-font-family);
+  font-size: var(--paragraph-desktop-font-size);
+  font-weight: 200;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 30vw;
+  gap: 12px;
+}
+
+.form-wrapper input,
+.form-wrapper textarea,
+.form-wrapper button {
+  margin-bottom: 10px; /* Optional: Add margin to separate form elements */
+  background-color: transparent; /* Set background color to transparent */
+  border: 2px solid var(--grey-light); /* Set a 2px white border */
+  padding: 10px;
+
+  color: var(--white);
+  font-family: 'Raleway', Helvetica;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.form-wrapper input::placeholder,
+.form-wrapper textarea::placeholder,
+.form-wrapper button::placeholder {
+  color: #9b9b9b;
+  font-family: 'Raleway', Helvetica;
+  font-size: 1rem;
+  font-weight: 300;
+  transform: translateY(1px);
+}
+
+.form-wrapper textarea {
+  resize: none;
+}
+
+.contact-wrapper button {
+  all: unset;
+  align-items: center;
+  cursor: pointer;
+  background: linear-gradient(180deg, #d17402 -23.12%, #f50101 120%);
+
+  padding: 16px 0px;
+
+  box-shadow: 0px 1.99324px 1.59459px 0px rgba(0, 0, 0, 0.05),
+    0px 4.5288px 3.62304px 0px rgba(0, 0, 0, 0.07),
+    0px 7.88218px 6.30574px 0px rgba(0, 0, 0, 0.08),
+    0px 12.52155px 10.01724px 0px rgba(0, 0, 0, 0.09),
+    0px 19.31982px 15.45586px 0px rgba(0, 0, 0, 0.11),
+    0px 30.14707px 24.11766px 0px rgba(0, 0, 0, 0.12);
+  text-align: center;
+
+  color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.contact-wrapper button:hover {
+  transition: all 0.2s ease;
+}
+
+.contact-wrapper button:active {
+  transform: scale(0.98);
+}
+
+/* Placeholder style when input is focused */
+.form-wrapper input:focus::placeholder,
+.form-wrapper textarea:focus::placeholder {
+  color: transparent;
+}
+
+.form-wrapper input:focus,
+.form-wrapper textarea:focus {
+  /* Add your focused styles here */
+  border: 1px solid var(--secondary); /* Adjust the border size as needed */
+  outline: none; /* Remove the default focus outline, if you don't want it */
+}
+
+@media (max-width: 1000px) {
+  .form-wrapper:not(.IMC-form-wrapper) {
+    width: 80vw;
+  }
+  .info-contact-form-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+  }
+  .contact-wrapper h1 {
+    margin-bottom: 64px;
+  }
+}
+
+.map-wrapper {
+  width: 60vw;
+  height: 60vh;
+}
+.map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  .map-wrapper {
+    width: 80vw;
+    height: 50vh;
+  }
+}
+@media (max-width: 600px) {
+  .map-wrapper {
+    width: 80vw;
+    height: 40vh;
+  }
+}
+@media (max-width: 400px) {
+  .map-wrapper {
+    width: 80vw;
+    height: 30vh;
+  }
+}

@@ -1,0 +1,278 @@
+:root {
+  font-size: 16px;
+  --primary: #d22a02;
+  --secondary: #d17402;
+
+  --grey-light: #c8c8c8;
+  --white: #f0f0f0;
+  --pure-black: #000000;
+  --black-95: #242424;
+  --background-linear: linear-gradient(97deg, #585757 1.06%, #101010 90.81%);
+  --background-second: #151515;
+  --gradient: linear-gradient(
+    180deg,
+    rgb(209, 116, 2) 0%,
+    rgb(210.37, 41.55, 1.75) 100%
+  );
+  /* FONTS */
+
+  /* Heading 1 */
+  --heading-1-desk-font-family: 'Raleway', Helvetica;
+  --heading-1-desk-font-size: 4rem;
+  --heading-1-desk-font-style: normal;
+  --heading-1-desk-font-weight: 400;
+  --heading-1-desk-letter-spacing: 0px;
+  --heading-1-desk-line-height: normal;
+
+  --heading-1-tablet-font-family: 'Raleway', Helvetica;
+  --heading-1-tablet-font-size: 3.4375rem;
+  --heading-1-tablet-font-style: normal;
+  --heading-1-tablet-font-weight: 400;
+  --heading-1-tablet-letter-spacing: 0px;
+  --heading-1-tablet-line-height: normal;
+
+  /* Heading 2 Light */
+  --heading-2-light-desk-font-family: 'Raleway', Helvetica;
+  --heading-2-light-desk-font-size: 3.1875rem;
+  --heading-2-light-desk-font-style: normal;
+  --heading-2-light-desk-font-weight: 300;
+  --heading-2-light-desk-letter-spacing: 1.02px;
+  --heading-2-light-desk-line-height: normal;
+
+  --heading-2-light-tablet-font-family: 'Raleway', Helvetica;
+  --heading-2-light-tablet-font-size: 2.75rem;
+  --heading-2-light-tablet-font-style: normal;
+  --heading-2-light-tablet-font-weight: 300;
+  --heading-2-light-tablet-letter-spacing: 0px;
+  --heading-2-light-tablet-line-height: normal;
+
+  /* Heading 3 Medium Desktop */
+  --heading-3-medium-desktop-font-family: 'Raleway', Helvetica;
+  --heading-3-medium-desktop-font-size: 2.5625rem;
+  --heading-3-medium-desktop-font-style: normal;
+  --heading-3-medium-desktop-font-weight: 600;
+  --heading-3-medium-desktop-letter-spacing: 0px;
+  --heading-3-medium-desktop-line-height: normal;
+
+  --heading-3-semir-tablet-font-family: 'Raleway', Helvetica;
+  --heading-3-semir-tablet-font-size: 2.1875rem;
+  --heading-3-semir-tablet-font-style: normal;
+  --heading-3-semir-tablet-font-weight: 600;
+  --heading-3-semir-tablet-letter-spacing: 0px;
+  --heading-3-semir-tablet-line-height: normal;
+
+  /* Heading 4 Medium Desk */
+  --heading-4-medium-desk-font-family: 'Raleway', Helvetica;
+  --heading-4-medium-desk-font-size: 2.0625rem;
+  --heading-4-medium-desk-font-style: normal;
+  --heading-4-medium-desk-font-weight: 500;
+  --heading-4-medium-desk-letter-spacing: 0px;
+  --heading-4-medium-desk-line-height: normal;
+
+  --heading-4-medium-tablet-font-family: 'Raleway', Helvetica;
+  --heading-4-medium-tablet-font-size: 1.75rem;
+  --heading-4-medium-tablet-font-style: normal;
+  --heading-4-medium-tablet-font-weight: 500;
+  --heading-4-medium-tablet-letter-spacing: 0px;
+  --heading-4-medium-tablet-line-height: normal;
+
+  /* Heading 5 Medium Desk */
+  --heading-5-medium-desk-font-family: 'Raleway', Helvetica;
+  --heading-5-medium-desk-font-size: 1.625rem;
+  --heading-5-medium-desk-font-style: normal;
+  --heading-5-medium-desk-font-weight: 500;
+  --heading-5-medium-desk-letter-spacing: 0px;
+  --heading-5-medium-desk-line-height: normal;
+
+  --heading-5-medium-tablet-font-family: 'Raleway', Helvetica;
+  --heading-5-medium-tablet-font-size: 1.40625rem;
+  --heading-5-medium-tablet-font-style: normal;
+  --heading-5-medium-tablet-font-weight: 500;
+  --heading-5-medium-tablet-letter-spacing: 0px;
+  --heading-5-medium-tablet-line-height: normal;
+
+  /* Heading 6 Regular Desk */
+  --heading-6-regular-desk-font-family: 'Raleway', Helvetica;
+  --heading-6-regular-desk-font-size: 1.3125rem;
+  --heading-6-regular-desk-font-style: normal;
+  --heading-6-regular-desk-font-weight: 400;
+  --heading-6-regular-desk-letter-spacing: 0px;
+  --heading-6-regular-desk-line-height: normal;
+
+  --hedaing-6-regular-tablet-font-family: 'Raleway', Helvetica;
+  --hedaing-6-regular-tablet-font-size: 1.125rem;
+  --hedaing-6-regular-tablet-font-style: normal;
+  --hedaing-6-regular-tablet-font-weight: 600;
+  --hedaing-6-regular-tablet-letter-spacing: 0px;
+  --hedaing-6-regular-tablet-line-height: normal;
+
+  /* Nav List */
+  --nav-list-font-family: 'Bebas Neue', Helvetica;
+  --nav-list-font-size: 2.5rem;
+  --nav-list-font-style: normal;
+  --nav-list-font-weight: 100;
+  --nav-list-letter-spacing: 1.28px;
+  --nav-list-line-height: normal;
+
+  /* Paragraph Desktop */
+  --paragraph-desktop-font-family: 'Roboto', Helvetica;
+  --paragraph-desktop-font-size: 1.3125rem;
+  --paragraph-desktop-font-style: normal;
+  --paragraph-desktop-font-weight: 400;
+  --paragraph-desktop-letter-spacing: 0px;
+  --paragraph-desktop-line-height: normal;
+
+  --paragraph-tablet-font-family: 'Roboto', Helvetica;
+  --paragraph-tablet-font-size: 1.125rem;
+  --paragraph-tablet-font-style: normal;
+  --paragraph-tablet-font-weight: 400;
+  --paragraph-tablet-letter-spacing: 0px;
+  --paragraph-tablet-line-height: normal;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--background-linear);
+
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0; /* Reset the margin to zero for all heading tags */
+}
+
+.h1 {
+  color: var(--primary);
+  font-family: var(--heading-2-light-desk-font-family);
+  font-size: var(--heading-2-light-desk-font-size);
+  font-weight: var(--heading-2-light-desk-font-weight);
+
+  text-align: center;
+  margin-bottom: 80px;
+}
+.p {
+  color: var(--grey-light);
+
+  font-family: var(--heading-4-medium-desk-font-family);
+  font-size: var(--heading-4-medium-desk-font-size);
+  font-weight: var(--heading-4-medium-desk-font-weight);
+  margin-bottom: 128px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    font-size: 16px; /* Adjust the root font size for larger screens */
+  }
+  /*card text wrapper fonts*/
+  .img-text-wrapper p {
+    font-size: 1.4rem;
+  }
+  .img-text-wrapper h1 {
+    font-size: 2.2rem;
+  }
+  .img-text-wrapper h2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  :root {
+    font-size: 13px; /* Adjust the root font size for larger screens */
+  }
+  /*card text wrapper fonts*/
+  .img-text-wrapper p {
+    font-size: 1.3rem;
+  }
+  .img-text-wrapper h1 {
+    font-size: 2.1rem;
+  }
+  .img-text-wrapper h2 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 700px) {
+  :root {
+    font-size: 11px; /* Adjust the root font size for larger screens */
+  }
+
+  /*card text wrapper fonts*/
+  .img-text-wrapper p {
+    font-size: 1.5rem;
+  }
+  .img-text-wrapper h1 {
+    font-size: 2.4rem;
+  }
+  .img-text-wrapper h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 350px) {
+  :root {
+    font-size: 10px; /* Adjust the root font size for larger screens */
+  }
+  /*card text wrapper fonts*/
+  .img-text-wrapper p {
+    font-size: 1.3rem;
+  }
+  .img-text-wrapper h1 {
+    font-size: 2.1rem;
+  }
+  .img-text-wrapper h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .why-us-wrapper {
+    padding: 128px 24px;
+  }
+  .our-story-wrapper {
+    padding: 128px 24px 64px 24px;
+  }
+  .info-wrapper {
+    margin-top: 128px;
+  }
+  .antrenori-wrapper {
+    padding: 128px 24px;
+  }
+  .membership-wrapper {
+    padding: 128px 24px;
+  }
+  .contact-wrapper {
+    padding: 128px 24px;
+  }
+  .exercitii-wrapper {
+    padding: 128px 24px;
+  }
+}

@@ -1,0 +1,33 @@
+.our-story-wrapper {
+  padding-top: 256px;
+  padding-bottom: 128px;
+}
+
+.our-story-h1 {
+  color: var(--primary);
+
+  font-family: var(--heading-2-light-desk-font-family);
+  font-size: var(--heading-2-light-desk-font-size);
+  font-weight: var(--heading-2-light-desk-font-weight);
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.our-story-p {
+  color: var(--grey-light);
+  font-family: var(--heading-5-medium-desk-font-family);
+  font-size: var(--heading-5-medium-desk-font-size);
+
+  font-weight: var(--heading-5-medium-tablet-font-weight);
+
+  margin: 64px 128px;
+
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .our-story-p {
+    margin: 64px 24px;
+  }
+}

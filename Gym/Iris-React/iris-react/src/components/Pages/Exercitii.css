@@ -1,0 +1,54 @@
+.exercitii-wrapper {
+  padding: 128px 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h1 {
+  /* margin-bottom: 80px; */
+}
+
+.categories-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 53px;
+  row-gap: 86px;
+}
+
+.categories-wrapper a {
+  text-decoration: none;
+}
+
+.category {
+  background-color: var(--grey-light);
+  border: 4px solid;
+  border-color: var(--pure-black);
+  height: 217px;
+  position: relative;
+  width: 267px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.category:hover {
+  transform: scale(1.05);
+}
+.category:active {
+  border-color: var(--primary);
+}
+
+.category h2 {
+  color: var(--pure-black);
+  font-family: var(--heading-3-medium-desktop-font-family);
+  font-size: var(--heading-3-medium-desktop-font-size);
+  font-style: var(--heading-3-medium-desktop-font-style);
+  font-weight: var(--heading-3-medium-desktop-font-weight);
+}
