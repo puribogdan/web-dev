@@ -18,4 +18,5 @@ export default defineConfig({
       external: ['@emailjs/browser'],
     },
   },
+  assetsDir: 'assets',
 });
