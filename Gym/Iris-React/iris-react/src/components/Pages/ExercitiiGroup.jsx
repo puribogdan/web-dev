@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import HeaderOther from '../HeaderOther/HeaderOther';
 import './Exercitii.css';
-import Footer from '../Footer/Footer';
+
 import { useParams } from 'react-router-dom';
 import './ExercitiiGroup.css';
 
