@@ -35,7 +35,7 @@ const IMC = () => {
 
   return (
     <>
-      <HeaderOther pageTitle="IMC" headerUrl="../src/assets/hero1.jpg" />
+      <HeaderOther pageTitle="IMC" headerUrl="/assets/hero1.jpg" />
       <section className="IMC-wrapper">
         <h1 className="h1">Calculator indice de masă corporală</h1>
         <p className="p">

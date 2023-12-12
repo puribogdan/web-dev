@@ -8,23 +8,19 @@ const Why_us = () => {
       <p className="p">"Vino pentru antrenament, rămâi pentru rezultate."</p>
       <div className="icons-wrapper">
         <div className="why-us-icon-wrapper">
-          <img
-            src="../src/assets/treadmill.png"
-            alt=""
-            className="why-us-icon"
-          />
+          <img src="/assets/treadmill.png" alt="" className="why-us-icon" />
           <p className="text-icon">Echipament modern</p>
         </div>
         <div className="why-us-icon-wrapper">
-          <img src="../src/assets/food.png" alt="" className="why-us-icon" />
+          <img src="/assets/food.png" alt="" className="why-us-icon" />
           <p className="text-icon">Plan nutrițional</p>
         </div>
         <div className="why-us-icon-wrapper">
-          <img src="../src/assets/coach.png" alt="" className="why-us-icon" />
+          <img src="/assets/coach.png" alt="" className="why-us-icon" />
           <p className="text-icon">Antrenor personal</p>
         </div>
         <div className="why-us-icon-wrapper">
-          <img src="../src/assets/box.png" alt="" className="why-us-icon" />
+          <img src="/assets/box.png" alt="" className="why-us-icon" />
           <p className="text-icon">Zonă de box</p>
         </div>
       </div>

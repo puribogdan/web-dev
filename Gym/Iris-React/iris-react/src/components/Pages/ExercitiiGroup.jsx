@@ -45,7 +45,7 @@ const ExercitiiGroup = () => {
   }, []); // Empty dependency array ensures useEffect runs only once, equivalent to componentDidMount
   return (
     <>
-      <HeaderOther headerUrl="../../src/assets/hero1.jpg" />
+      <HeaderOther headerUrl="/assets/hero1.jpg" />
       <Routes>
         {exercises.map((exercise) => (
           <Route

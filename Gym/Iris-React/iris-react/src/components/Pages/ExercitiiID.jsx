@@ -45,7 +45,7 @@ const ExerciseDetail = () => {
 
   return (
     <div>
-      <HeaderOther pageTitle="" headerUrl="../../src/assets/hero1.jpg" />
+      <HeaderOther pageTitle="" headerUrl="/assets/hero1.jpg" />
       <section className="exercitiiID-wrapper">
         <button className="return-btn" onClick={goBack}>
           Înapoi

@@ -86,28 +86,28 @@ const Carousel = () => {
     <div>
       <Slider {...settings}>
         <div className="img-wrapper">
-          <img src="./src/assets/1.png" alt="Image 1" />
+          <img src="/assets/1.png" alt="Image 1" />
         </div>
         <div className="img-wrapper">
-          <img src="./src/assets/2.png" alt="Image 1" />
+          <img src="/assets/2.png" alt="Image 1" />
         </div>
         <div className="img-wrapper">
-          <img src="./src/assets/1.png" alt="Image 1" />
+          <img src="/assets/1.png" alt="Image 1" />
         </div>
         <div className="img-wrapper">
-          <img src="./src/assets/2.png" alt="Image 1" />
+          <img src="/assets/2.png" alt="Image 1" />
         </div>
         <div className="img-wrapper">
-          <img src="./src/assets/1.png" alt="Image 1" />
+          <img src="/assets/1.png" alt="Image 1" />
         </div>
         <div className="img-wrapper">
-          <img src="./src/assets/2.png" alt="Image 1" />
+          <img src="/assets/2.png" alt="Image 1" />
         </div>
         <div className="img-wrapper">
-          <img src="./src/assets/1.png" alt="Image 1" />
+          <img src="/assets/1.png" alt="Image 1" />
         </div>
         <div className="img-wrapper">
-          <img src="./src/assets/2.png" alt="Image 1" />
+          <img src="/assets/2.png" alt="Image 1" />
         </div>
       </Slider>
     </div>

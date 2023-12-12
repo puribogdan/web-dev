@@ -11,7 +11,7 @@ export const Button = () => {
         <img
           className="forge-icon"
           alt="Forge icon"
-          src="../src/assets/forge-icon-1.png"
+          src="/assets/forge-icon-1.png"
         />
       </button>
     </Link>
@@ -22,11 +22,7 @@ const Header = () => {
   return (
     <header>
       <div className="hero-container">
-        <img
-          src="../src/assets/hero1.jpg"
-          alt="girl-gym"
-          className="hero-img"
-        />
+        <img src="/assets/hero1.jpg" alt="girl-gym" className="hero-img" />
         <Navbar />
 
         <Button />

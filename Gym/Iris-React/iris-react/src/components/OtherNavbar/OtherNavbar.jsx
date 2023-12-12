@@ -6,7 +6,7 @@ const OtherNavbar = () => {
   return (
     <nav>
       <a href="#" className="logo-link" id="scrollToTop">
-        <img src="../src/assets/logo.png" alt="logo" className="logo" />
+        <img src="/assets/logo.png" alt="logo" className="logo" />
       </a>
       <ul>
         <li>

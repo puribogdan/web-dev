@@ -2,7 +2,7 @@ import React from 'react';
 import { useRef, useState } from 'react';
 import './Contact.css';
 import HeaderOther from '../HeaderOther/HeaderOther';
-import emailjs from '@emailjs/browser';
+import emailjs from '/node_modules/@emailjs/browser';
 import Footer from '../Footer/Footer';
 
 const Contact = () => {
@@ -34,25 +34,25 @@ const Contact = () => {
 
   return (
     <>
-      <HeaderOther pageTitle="CONTACT" headerUrl="./src/assets/hero1.jpg" />
+      <HeaderOther pageTitle="CONTACT" headerUrl="/assets/hero1.jpg" />
       <section className="contact-wrapper">
         <h1 className="h1">Contactează-ne</h1>
         <div className="info-contact-form-wrapper">
           <div className="info-contact-wrapper">
             <div className="info-contact">
-              <img src="../src/assets/location.png" alt=""></img>
+              <img src="/assets/location.png" alt=""></img>
               <p>Năsăud, strada Rahovei nr 9</p>
             </div>
             <div className="info-contact">
-              <img src="../src/assets/phone.png" alt=""></img>
+              <img src="/assets/phone.png" alt=""></img>
               <p>0741234567</p>
             </div>
             <div className="info-contact">
-              <img src="../src/assets/mail.png" alt=""></img>
+              <img src="/assets/mail.png" alt=""></img>
               <p>irisgym@gmail.com</p>
             </div>
             <div className="info-contact">
-              <img src="../src/assets/instagram.png" alt=""></img>
+              <img src="/assets/instagram.png" alt=""></img>
               <p>irisgymfitness</p>
             </div>
           </div>

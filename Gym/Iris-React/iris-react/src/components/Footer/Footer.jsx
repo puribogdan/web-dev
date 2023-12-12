@@ -14,17 +14,17 @@ const footer = () => {
     <div className="footer-wrapper">
       <div className="footer-info-wrapper">
         <div className="phone">
-          <img src="../src/assets/Phone.png" alt="phone-icon" />
+          <img src="/assets/Phone.png" alt="phone-icon" />
           <h1>Telefon</h1>
           <p>0741234567</p>
         </div>
         <div className="location">
-          <img src="../src/assets/location.png" alt="location-icon" />
+          <img src="/assets/location.png" alt="location-icon" />
           <h1>Adresă</h1>
           <p>Năsăud, str Rahovei nr.9</p>
         </div>
         <div className="mail">
-          <img src="../src/assets/mail.png" alt="mail-icon" />
+          <img src="/assets/mail.png" alt="mail-icon" />
           <h1>E-mail</h1>
           <p>irisgym@gmail.com</p>
         </div>
@@ -76,7 +76,7 @@ const footer = () => {
       <div className="up-arrow-wrapper">
         <a href="#scrollToTop">
           <img
-            src="../src/assets/uparrow.png"
+            src="/assets/uparrow.png"
             alt="up-arrow"
             className="footer-up-arrow"
           />

@@ -10,8 +10,8 @@ const AntrenoriCard = ({ image, name, specialization, description }) => {
         <h2>{specialization}</h2>
         <p>{description}</p>
         <div>
-          <img src="../src/assets/facebook-icon.png" alt="facebook-icon" />
-          <img src="../src/assets/instagram-icon.png" alt="instagram-icon" />
+          <img src="assets/facebook-icon.png" alt="facebook-icon" />
+          <img src="assets/instagram-icon.png" alt="instagram-icon" />
         </div>
       </div>
     </>
@@ -25,14 +25,14 @@ const Antrenori = () => {
       specialization: 'Personal Trainer',
       description:
         'non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
-      image: '../src/assets/Diamir.jpg',
+      image: '/assets/Diamir.jpg',
     },
     {
       name: 'Lorem Ipsum',
       specialization: 'Trainer & Nutritionist',
       description:
         'Experienced yoga teacher specialized in Hatha and Vinyasa...',
-      image: '../src/assets/trainer.jpg',
+      image: '/assets/trainer.jpg',
     },
     // Add more coaches as needed
   ];
